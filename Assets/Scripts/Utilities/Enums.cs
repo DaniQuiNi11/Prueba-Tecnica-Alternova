@@ -1,0 +1,24 @@
+public enum ALERT
+{
+    GOOD,
+    ALERT,
+    ERROR,
+    MESSAGE
+}
+
+public enum ValidationResult
+{
+    SUCCESS,
+    ERROR_INVALID_ELEMENT_COUNT,
+    ERROR_INVALID_DIMENSIONS,
+    ERROR_ODD_ELEMENT_COUNT,
+    ERROR_INVALID_OCCURRENCES,
+    ERROR_DUPLICATE_POSITION
+}
+
+public enum SCREEN
+{
+    MENU,
+    SCORE,
+    GAME
+}
